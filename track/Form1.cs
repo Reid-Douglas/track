@@ -52,25 +52,25 @@ namespace track
         }
         public void onStart()
         {
-            trackLimits.Add(new Rectangle(0, 215, 500, 8));
-            trackLimits.Add(new Rectangle(0, 0, 9, 750));
-            trackLimits.Add(new Rectangle(0, 208, 83, 30));
-            trackLimits.Add(new Rectangle(973, 0, 984, 750));
-            trackLimits.Add(new Rectangle(0, 678, 985, 749));
-            trackLimits.Add(new Rectangle(0, 0, 985, 28));
-            trackLimits.Add(new Rectangle(703, 175, 155, 360));
-            trackLimits.Add(new Rectangle(103, 380, 145, 180));
-            trackLimits.Add(new Rectangle(0, 0, 50, 60));
-            trackLimits.Add(new Rectangle(0, 0, 25, 225));
-            trackLimits.Add(new Rectangle(25, 175, 18, 40));
-            trackLimits.Add(new Rectangle(338, 264, 230, 180));
-            trackLimits.Add(new Rectangle(320, 223, 180, 45));
-            trackLimits.Add(new Rectangle(220, 135, 575, 15));
-            trackLimits.Add(new Rectangle(676, 145, 150, 38));
-            trackLimits.Add(new Rectangle(949, 20, 40, 40));
-            trackLimits.Add(new Rectangle(195, 600, 600, 10));
-            trackLimits.Add(new Rectangle(130, 560, 150, 40));
-            trackLimits.Add(new Rectangle(684, 550, 155, 40));
+            trackLimits.Add(new Rectangle(0, 217, 500, 8));
+            trackLimits.Add(new Rectangle(-5, 0, 9, 750));
+            trackLimits.Add(new Rectangle(0, 210, 80, 20));
+            trackLimits.Add(new Rectangle(978, 0, 984, 750));
+            trackLimits.Add(new Rectangle(0, 683, 985, 749));
+            trackLimits.Add(new Rectangle(0, -5, 985, 28));
+            trackLimits.Add(new Rectangle(713, 185, 135, 360));
+            trackLimits.Add(new Rectangle(113, 380, 125, 180));
+            trackLimits.Add(new Rectangle(5, 0, 30, 60));
+            trackLimits.Add(new Rectangle(-10, 0, 25, 225));
+            trackLimits.Add(new Rectangle(10, 175, 18, 40));
+            trackLimits.Add(new Rectangle(350, 270, 210, 160));
+            trackLimits.Add(new Rectangle(340, 227, 160, 35));
+            trackLimits.Add(new Rectangle(280, 137, 515, 10));
+            trackLimits.Add(new Rectangle(690, 149, 130, 38));
+            trackLimits.Add(new Rectangle(958, 20, 40, 40));
+            trackLimits.Add(new Rectangle(195, 603, 600, 3));
+            trackLimits.Add(new Rectangle(150, 555, 110, 40));
+            trackLimits.Add(new Rectangle(695, 550, 135, 40));
             trackLimits.Add(new Rectangle(600, 590, 210, 10));
 
         }
@@ -141,25 +141,25 @@ namespace track
 
 
             // slow borders
-            //e.Graphics.FillRectangle(solidBrush, 0, 215, 500, 8);
-            //e.Graphics.FillRectangle(solidBrush, 0, 0, 9, 750);
-            //e.Graphics.FillRectangle(solidBrush, 0, 208, 83, 30);
-            //e.Graphics.FillRectangle(solidBrush, 973, 0, 984, 750);
-            //e.Graphics.FillRectangle(solidBrush, 0, 678, 985, 749);
-            //e.Graphics.FillRectangle(solidBrush, 0, 0, 985, 28);
-            //e.Graphics.FillRectangle(solidBrush, 703, 175, 155, 360);
-            //e.Graphics.FillRectangle(solidBrush, 103, 380, 145, 180);
-            //e.Graphics.FillRectangle(solidBrush, 0, 0, 50, 60);
-            //e.Graphics.FillRectangle(solidBrush, 0, 0, 25, 225);
-            //e.Graphics.FillRectangle(solidBrush, 25, 175, 18, 40);
-            //e.Graphics.FillRectangle(solidBrush, 338, 264, 230, 180);
-            //e.Graphics.FillRectangle(solidBrush, 320, 223, 180, 45);
-            //e.Graphics.FillRectangle(solidBrush, 220, 135, 575, 15);
-            //e.Graphics.FillRectangle(solidBrush, 676, 145, 150, 38);
-            //e.Graphics.FillRectangle(solidBrush, 949, 20, 40, 40);
-            //e.Graphics.FillRectangle(solidBrush, 195, 600, 600, 10);
-            //e.Graphics.FillRectangle(solidBrush, 130, 560, 150, 40);
-            //e.Graphics.FillRectangle(solidBrush, 684, 550, 155, 40);
+            //e.Graphics.FillRectangle(solidBrush, 0, 217, 500, 8);
+            //e.Graphics.FillRectangle(solidBrush, -5, 0, 9, 750);
+            //e.Graphics.FillRectangle(solidBrush, 0, 210, 80, 20);
+            //e.Graphics.FillRectangle(solidBrush, 978, 0, 984, 750);
+            //e.Graphics.FillRectangle(solidBrush, 0, 683, 985, 749);
+            //e.Graphics.FillRectangle(solidBrush, 0, -5, 985, 28);
+            //e.Graphics.FillRectangle(solidBrush, 713, 185, 135, 360);
+            //e.Graphics.FillRectangle(solidBrush, 113, 380, 125, 180);
+            //e.Graphics.FillRectangle(solidBrush, 5, 0, 30, 60);
+            //e.Graphics.FillRectangle(solidBrush, -10, 0, 25, 225);
+            //e.Graphics.FillRectangle(solidBrush, 10, 175, 18, 40);
+            //e.Graphics.FillRectangle(solidBrush, 350, 270, 210, 160);
+            //e.Graphics.FillRectangle(solidBrush, 340, 227, 160, 35);
+            //e.Graphics.FillRectangle(solidBrush, 280, 137, 515, 10);
+            //e.Graphics.FillRectangle(solidBrush, 690, 149, 130, 38);
+            //e.Graphics.FillRectangle(solidBrush, 958, 20, 40, 40);
+            //e.Graphics.FillRectangle(solidBrush, 195, 603, 600, 3);
+            //e.Graphics.FillRectangle(solidBrush, 150, 555, 110, 40);
+            //e.Graphics.FillRectangle(solidBrush, 695, 550, 135, 40);
             //e.Graphics.FillRectangle(solidBrush, 600, 590, 210, 10);
 
             //check points
